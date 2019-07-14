@@ -1,0 +1,20 @@
+{
+  "name": "postcss-preset-env-grunt-test-repo",
+  "version": "1.0.0",
+  "description": "A test repo for working out some issues I found",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morgan Feeney",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.0.2",
+    "load-grunt-tasks": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "postcss-preset-env": "^6.7.0"
+  },
+  "dependencies": {}
+}
