@@ -34,3 +34,8 @@ h1 {
   color: #000000;
   color: var(--black);
 }
+
+h2 {
+  color: green;
+  color: var(--test);
+}

@@ -26,16 +26,17 @@ module.exports = function (grunt) {
             autoprefixer: {
               grid: true,
             },
+            importFrom: "src/css/test.css",
           }),
         ],
       },
       dist: {
-        src: "dest/css/style.css"
+        src: "dest/css/style.css",
       },
     },
     clean: {
       css: {
-        src: "dest/css/style.css"
+        src: "dest/css/style.css",
       },
     },
   });
